@@ -16,9 +16,16 @@ src-tauri/target/
 .DS_Store
 Thumbs.db
 
-# Environment
+# Environment — NEVER commit these
 .env
+.env.*
+*.env
 .env.local
+.env.production
+
+# Credentials
+*credentials*
+.git-credentials
 
 # Debug
 *.log
@@ -29,3 +36,6 @@ src-tauri/wix/
 
 # Rust
 *.rs.bk
+
+# Test files that may contain secrets
+test_*.py
