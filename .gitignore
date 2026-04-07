@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+target/
+
+# Build output
+dist/
+src-tauri/target/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Debug
+*.log
+npm-debug.log*
+
+# Tauri
+src-tauri/wix/
+
+# Rust
+*.rs.bk
